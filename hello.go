@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+func Hello(s string) {
+	fmt.Println("Hello Welcome : ",s)
+}
+
 func main(){
-	fmt.Println("HEllo Welcome to My Go ")
+	Hello("Groot")
 }
