@@ -1,4 +1,4 @@
-package main
+package boif
 
 import (
 	"fmt"
@@ -10,4 +10,6 @@ func Hello(s string) {
 
 func main(){
 	Hello("Groot")
+
+
 }
